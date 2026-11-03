@@ -1,0 +1,76 @@
+Build a complete, modern and interactive web application called **ChemiLab – Cheminformatics Virtual Laboratory** using Python and Streamlit.
+
+This project is for a first-year CSE student to demonstrate a virtual chemistry laboratory as an additional academic project.
+
+### 1. Main Dashboard
+- Create a professional and modern dashboard.
+- Display the project name: ChemiLab.
+- Add a short description of the virtual chemistry laboratory.
+- Use a clean scientific theme with blue, white and dark backgrounds.
+- Add a sidebar navigation menu.
+
+### 2. Compound Explorer
+- Allow users to select chemical compounds from a predefined database.
+- Include compounds such as Water, Methane, Ethanol, Glucose, Benzene, Acetic Acid and Aspirin.
+- Display their chemical formulas and molecular weights.
+- Display their molecular structures wherever possible.
+
+### 3. Molecular Property Calculator
+Allow users to enter a chemical formula or select a compound and display:
+- Molecular formula
+- Molecular weight
+- Number of atoms
+- Element composition
+- Basic molecular properties
+
+### 4. Molecular Structure Viewer
+- Display 2D molecular structures.
+- Allow users to explore different compounds.
+- Use RDKit if supported.
+
+### 5. Chemical Information
+For every selected compound, display:
+- Compound name
+- Chemical formula
+- Molecular weight
+- Common uses
+- Basic chemical information
+
+### 6. Virtual Lab Experiments
+Include educational virtual activities:
+- Molecular weight calculation
+- Element composition analysis
+- Compare two chemical compounds
+- Identify functional groups where supported
+- Explore molecular structures
+
+### 7. Quiz Section
+- Create 10 multiple-choice chemistry questions.
+- Show the correct answers after submission.
+- Calculate the final score.
+- Display a result summary.
+
+### 8. Report Generation
+- Allow users to generate and download a PDF report containing the selected compound information and calculated properties.
+
+### 9. Technical Requirements
+- Use Python and Streamlit.
+- Use RDKit for cheminformatics calculations and molecular visualization if available.
+- Use Plotly for charts if useful.
+- Organize the project into multiple Python files.
+- Include requirements.txt.
+- Include a README.md with installation and usage instructions.
+- Include proper error handling and input validation.
+- Make the application responsive and easy to use.
+
+### 10. GitHub and Deployment
+- Prepare the complete project for GitHub.
+- Include a .gitignore file.
+- Provide clear instructions to upload the project to GitHub.
+- Make it compatible with Streamlit Community Cloud deployment.
+- Include all necessary dependencies.
+
+IMPORTANT:
+Build a fully working application, not just a UI design. All buttons, calculations, navigation, quizzes and downloads must work. Use scientifically correct formulas and calculations. Do not use fake results or placeholder functionality.
+
+Make the application beginner-friendly, professional and suitable for an academic virtual chemistry laboratory demonstration.
